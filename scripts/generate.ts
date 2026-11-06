@@ -9,7 +9,7 @@
  *   schemas.ts   named aliases for every component schema
  *   events.ts    webhook event map + union
  *
- * Usage: npm run generate (from packages/sdk or the repo root).
+ * Usage: npm run generate
  */
 import { mkdirSync, writeFileSync } from "node:fs";
 import { emitAll } from "./codegen/emit.js";

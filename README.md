@@ -160,7 +160,7 @@ parameters, scopes), as used by the CLI.
 ## Development
 
 ```sh
-npm run generate   # regenerate src/generated/ from ../../openapi/openapi.json
+npm run generate   # regenerate src/generated/ from openapi/openapi.json (npm run sync-spec pulls the live one)
 npm test           # typecheck + unit tests (a test fails if generated code is stale)
 npm run build      # dist/ (ESM, CJS, .d.ts)
 HORUS_API_KEY=ak_… npm run smoke   # live, read-only checks against production
